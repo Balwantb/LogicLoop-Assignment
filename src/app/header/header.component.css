@@ -1,0 +1,50 @@
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+a:hover,
+button:hover {
+  text-decoration: none;
+  color: #498bf9;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  padding: 0 7px;
+  position: relative;
+}
+ul li:not(:last-child)::after {
+  content: "";
+  border: 1px solid #e2e2e2;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  height: 100%;
+}
+
+.img-jmbo {
+  background-image: url("../../assets/banner.jpeg");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+nav {
+  font-family: "Roboto", Courier, monospace;
+}

@@ -1,0 +1,51 @@
+<section class="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4" *ngFor="let data of blogs">
+        <div class="card mb-2">
+          <div class="postcard">
+            <div class="blog-image">
+              <img
+                class="card-img-top"
+                src="{{ data.img }}"
+                alt="{{ data.alt }}"
+              />
+            </div>
+
+            <div class="blog-info">
+              <h5 class="title">
+                <a href="#">
+                  <b>{{ data.title }}</b>
+                </a>
+              </h5>
+
+              <ul class="footer-blog mb-0">
+                <li>
+                  <a href="#"><i class="fas fa-heart"></i> {{ data.like }}</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-comment p-1"></i>{{ data.comment }}</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-eye p-1"></i>{{ data.views }}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd card -->
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card">
+          <img
+            src="../../assets/4.jpeg"
+            class="card-img-top"
+            alt="PineApplePicture"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
