@@ -10,7 +10,7 @@ export class CardSectionComponent implements OnInit {
     {
       title: `How Did Van Gogh's Turbulent Mind Depict One of the Most
     Complex Concepts in Physics?`,
-      img: "../../assets/1.jpeg",
+      img: "assets/1.jpeg",
       like: 57,
       comment: 6,
       views: 138,
@@ -19,7 +19,7 @@ export class CardSectionComponent implements OnInit {
     {
       title: `How Did Van Gogh's Turbulent Mind Depict One of the Most
     Complex Concepts in Physics?`,
-      img: "../../assets/2.jpeg",
+      img: "assets/2.jpeg",
       like: 57,
       comment: 6,
       views: 138,
@@ -28,7 +28,7 @@ export class CardSectionComponent implements OnInit {
     {
       title: `How Did Van Gogh's Turbulent Mind Depict One of the Most
     Complex Concepts in Physics?`,
-      img: "../../assets/3.jpeg",
+      img: "assets/3.jpeg",
       like: 57,
       comment: 6,
       views: 138,
