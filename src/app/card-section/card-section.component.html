@@ -36,15 +36,66 @@
           </div>
         </div>
       </div>
-      <!-- 2nd card -->
+      <!-- 4th card -->
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="card">
+        <div class="card mb-4">
           <img
             src="assets/4.jpeg"
             class="card-img-top"
             alt="PineApplePicture"
           />
         </div>
+      </div>
+      <!-- fifth card -->
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="card mb-4">
+          <div class="postcard">
+            <div class="blog-info">
+              <h5 class="first-title pt-4 pl-4"><b>Health</b></h5>
+              <h5 class="title text-left">
+                <a href="#">
+                  <b
+                    >How Did Van Gogh's Turbulent Mind Depict One of the Most
+                    Complex Concepts in Physics?</b
+                  >
+                </a>
+              </h5>
+              <p class="text-left pl-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                inventore nesciunt possimus, asperiores sit similique.
+              </p>
+              <div>
+                <div class="img-area">
+                  <img src="assets/mini-img.PNG" width="50px" alt="" />
+                  <div>
+                    <a href="#" class="footer-title"><b>Lora Planner</b></a>
+                    <h5 class="desc">On Sep 29, 2017 at 9:48am</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sixth card -->
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <ng-container *ngFor="let card of lastCard">
+          <div class="card mb-2">
+            <div class="postcard">
+              <div class="blog-image">
+                <img class="card-img-top" src="{{ card.img }}" height="200px" />
+              </div>
+
+              <div class="blog-info">
+                <h5 class="title">
+                  <a href="#">
+                    <b>{{ card.title }}</b>
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </ng-container>
       </div>
     </div>
   </div>

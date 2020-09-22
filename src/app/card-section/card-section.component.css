@@ -37,3 +37,20 @@ a {
 .blog .postcard .title {
   padding: 20px 30px 30px;
 }
+
+.first-title {
+  text-align: left;
+}
+
+.img-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-title {
+  padding-right: 120px;
+}
+
+.desc {
+  padding-left: 15px;
+}

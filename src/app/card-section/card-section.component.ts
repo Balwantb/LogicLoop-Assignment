@@ -35,6 +35,15 @@ export class CardSectionComponent implements OnInit {
       alt: "Bricks",
     },
   ];
+
+  lastCard = [
+    {
+      title: `How Did Van Gogh's Turbulent Mind Depict One of the Most
+    Complex Concepts in Physics?`,
+      img: "assets/3.jpeg",
+      alt: "Portrait",
+    },
+  ];
   constructor() {}
 
   ngOnInit(): void {}
